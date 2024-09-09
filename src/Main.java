@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Ingresar segundo parametro:");
         t = y.nextInt();
 
-        calculadora operacion = new calculadora(u,t);
+        calculadora operacion = new calculadora();
 
         if (opcion == 1){
             operacion.hacer_suma(u,t);
